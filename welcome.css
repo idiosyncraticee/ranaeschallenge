@@ -1,0 +1,131 @@
+/* CSS Document */
+
+body {
+	background-color: #000066;
+	background-image: url(./bg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+
+#hd {
+background-color: #FFFFFF;
+margin: 0 auto;
+max-width:80%;
+min-width:980px;
+width: 98em;
+padding:10px 10px 0px;
+border-bottom:3px solid #000066;
+}
+
+#bd {
+background-color: #FFFFFF;
+margin: 0 auto;
+max-width:80%;
+min-width:980px;
+width: 98em;
+padding:15px 10px 10px;
+
+}
+
+#ft {
+background-color: #FFFFFF;
+margin: 0 auto;
+max-width:80%;
+min-width:980px;
+width: 98em;
+padding:15px 10px 10px;
+
+}
+
+#footer{
+
+margin-left: 0px;
+padding:10px;
+padding-left:0px;
+padding-right:0px;
+width:100%;
+float: left;
+text-align: center; 
+}
+#footer ul {
+list-style: none;
+border: 1px solid #123;
+margin-left: auto;
+margin-right: auto; 
+}
+
+#footer li { 
+font-weight: bold;  
+display: inline;
+border:5px solid #FFF;
+}
+
+
+
+#footer a {
+font-weight: bold; 
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+#signin{
+float: right;
+}
+#message{
+float: left;
+width: 350px;
+font-size: 130%;
+}
+
+
+#tour{
+float: left;
+/*border: 1px solid #000;*/
+width: 400px;
+height: 250px;
+padding-top:10px;
+}
+#welcomeDiv{
+  width: 800px ;
+  margin-left: auto ;
+  margin-right: auto ;
+
+
+}
+
+.wrap {
+  border: 2px solid black;
+  background-color: #FFFFFF;  
+  margin: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center; 
+  padding-top:5px;
+  display: block;
+}
+
+
+
+
+
+.wrap li { 
+font-weight: bold;
+list-style: none;
+/*list-style-image:none;
+list-style-position:outside;
+list-style-type:disc;*/
+padding:2px 2px 2px 2px;
+text-align: left; 
+height:20px;
+}
+
+.wrap a {
+font-weight: bold; 
+text-decoration: none;
+}
+
+.wrap a:hover {
+text-decoration: underline;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>    
+  <head>         
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">         
+    <title>Ranae's Weight Loss Challenge</title>          
+
+
+
+    
+
+<!-- Individual YUI JS files -->
+<!-- Individual YUI CSS files -->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset-fonts-grids/reset-fonts-grids.css">
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css">
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/assets/skins/sam/skin.css">
+<link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/calendar/assets/skins/sam/calendar.css"> 
+<link rel="stylesheet" type="text/css" href="./dashboard_style.css">
+<!-- Individual YUI JS files -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/utilities/utilities.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/button/button-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/calendar/calendar-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/datasource/datasource-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/json/json-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/swf/swf-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/charts/charts-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/container/container_core-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/datatable/datatable-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/logger/logger-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
+
+
+
+
+
+
+
+  <!-- Custom scripts -->
+<!-- 
+<script type="text/javascript" src="./myProfile.js"></script> 
+<script type="text/javascript" src="./aYuiDataTable.js"></script> 
+<script type="text/javascript" src="./addTextNotes.js"></script>   
+<script type="text/javascript" src="./yuiManageInventory.js" ></script>   
+<script type="text/javascript" src="./yuiSystem.js"></script>
+<script type="text/javascript" src="./yuiUploader.js"></script>
+-->
+<script type="text/javascript" src="./yuiDashboard.js"></script>    
+<script type="text/javascript" src="./yuiBookkeeping.js"></script>
+<script type="text/javascript" src="./yuiController.js"></script>
+
+  </head>
+  <body class="yui-skin-sam">      
+    <div id="doc3" class="yui-t1"> 
+      <!-- doc3 is 100 percent width -->      
+      <div id="hd">
+      <img src="fitness_header.jpg" alt="Ranae's Weight Loss Challenge">
+      <!--This is the header-->
+<!--      <div>
+        <ul>
+          <li class="myreef"><em></em><a href="#">MyReef</a></li>
+          <li class="wereef"><em></em><a href="#">We Reef</a></li>          
+        </ul>
+      </div>
+      -->
+        <div id="headerlist" class="wrap">
+          <ul id="headerlistul">
+            <!-- <li id="sitetour"><em></em><a href="#">Site Tour</a></li> -->
+            <li id="signout"><em></em><a href="./welcome.html">Sign Out</a></li>
+          </ul>
+        </div>  
+    
+      </div>
+      <div id="bd">            
+
+      <div id="yui-main">
+
+                
+      <div id="dashboardModule">
+            <div class="yui-navset">
+
+                <ul class="yui-nav">
+                  <li class="selected"><a href="#tab0"><em>My Home</em></a></li>
+                  <li><a href="#tab1"><em>Rankings</em></a></li>
+                  <li><a href="#tab2"><em>My Journey</em></a></li>
+                  <li><a href="#tab3"><em>My Chart</em></a></li>
+                  <!-- <li><a href="#tab3"><em>My Exercise</em></a></li> -->
+                  <!-- <li><a href="#tab4"><em>My Food</em></a></li> -->
+                  <!-- <li><a href="#tab5"><em>Administrator</em></a></li> -->
+                  <!-- <li><a href="#tab7"><em>Logger</em></a></li> -->
+                </ul>
+                <div class="yui-content">  
+                
+
+                  <div id="homeTabDiv">
+					<h1>Welcome to Ranae's Challenge</h1>
+					<h2>Rankings</h2>
+					<p>See how everyone is doing under the <b>Rankings</b> tab.</p>
+					<h2>My Journey</h2>
+					<p>Input your data under the <b>My Journey</b> tab.</p>
+					<h2>My Chart</h2>
+					<p>Check out your progress under the <b>My Chart</b> tab.</p>
+                  </div>                                   
+                  <div id="myRankingTabDiv">
+                  	<div id="myRankingTabDivAnnouncement"></div>                   
+                  </div> 
+                  <div id="myJourneyTabDiv"></div>   
+                  <div id="dashboardTabDiv"></div>
+                  <!-- 
+                  <div id="myExerciseTabDiv"></div> 
+                  <div id="myFoodTabDiv"></div>                 
+                  <div id="adminTabDiv">
+                    <div id="adminCalendarDiv"></div>
+                  </div>  
+                  <div id="loggerTabDiv"></div> 
+                   -->
+
+                </div>
+
+            </div>                 
+        </div>   
+           
+
+
+          
+             
+        </div>        
+ 
+      </div>         
+      <div id="ft">
+        <div id="footerlistdiv">
+        <ul id="footer" class="wrap"> 
+          <li class="first"><a href="./index.html">&copy; 2010 Ranae's Challenge</a></li>
+          <li><a href="mailto:idiosyncraticee@comcast.net">Contact Us</a></li>
+          <li><a href="./terms_and_conditions.html">Terms and Conditions</a></li>
+          <li><a href="./privacy_policy.html">Privacy Policy</a></li>
+        </ul>
+        </div>
+      </div>      
+    </div>  
+  </body>
+</html>

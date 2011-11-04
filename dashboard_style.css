@@ -1,0 +1,439 @@
+html {
+  background-color: #000;
+  height: 100;
+}
+
+#adminTabDiv
+{
+  vertical-align:float;
+  clear:left;
+  float:left;
+  text-align:center;
+}
+	#testcaseChartDiv
+	{
+		width: 500px;
+		height: 350px;
+		margin-bottom: 10px;
+		 z-index:1;
+	}
+	#dashboardTabDiv
+	{
+		width: 500px;
+		height: 350px;
+		margin-bottom: 10px;
+		 z-index:1;
+	}
+	.yui-dt-table {width: 500px;}
+
+	.chart_title
+	{
+		display: block;
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-bottom: 0.4em;
+	}
+
+body {
+  background-color: #000066;
+	background-image: url(./bg.jpg);
+	background-repeat: repeat-x;
+  margin: 0px;
+}
+
+#productsandservices { 
+  position: static; 	     
+}
+
+.yui-skin-sam .yui-layout .yui-layout-unit div.yui-layout-bd {
+background-color: #EDF5FF;
+border: 1px;
+}
+
+
+.makeBlue {
+  border: 1px solid #000000;
+  background-color: #CCFFFF;
+
+}
+
+.hover {
+background-color: #0033FF;
+color: #fff;
+border: 2px solid #000000;
+}
+
+.hover2 {
+background-color: #FF0000;
+color: #fff;
+border: 2px solid #000000;
+}
+
+/* THIS IS HERE IN ORDER TO ALLOW THE GRAPH TO SHOW UP */
+/*  THIS TOOK FOREVER TO FIGURE OUT AND NEEDS TO BE IMPROVED A LOT MORE */
+
+#dashboardTabDiv
+{
+	width: 95%;
+
+}
+
+
+#dashboardDataTable
+{
+	/*width: 95%;
+	height: 350px;*/
+}
+
+/*
+.gaugediv
+{
+}
+*/
+
+#profileDiv
+{
+	width: 500px;
+	height: 400px;
+  background-color: #CCFFFF;
+  padding:10px 10px 10px 10px;
+  border:1px solid #000;
+}
+
+#systemModuleDiv
+{
+	/*width: 100%;*/
+	height: 100%;
+  /*background-color: #CCFFFF;*/
+  padding:10px 10px 10px 10px;
+  border:1px solid #000;
+}
+
+#editImage {
+  margin: 0px auto;
+  text-align:center;
+  font-size:11px;
+}
+
+
+.userFields {
+  clear:left;
+  float:left;
+  font-weight:normal;
+    margin: 5px 0px;
+}
+
+
+
+.userData {
+  font-weight: bold;
+}
+
+#userImageSpan {
+  vertical-align:float;
+  clear:right;
+  float:right;
+
+}
+
+.userImage {
+  vertical-align:float;
+  clear:center;
+  float:center;
+  width:100px;
+  height:120px;
+}
+
+#topProfileDiv {
+  min-height:170px;
+}
+
+
+
+#hd {
+background-color: #FFFFFF;
+margin: 0 auto;
+max-width:80%;
+min-width:980px;
+width: 98em;
+padding:10px 10px 0px;
+border-bottom:3px solid #000066;
+}
+
+#bd {
+background-color: #FFFFFF;
+margin: 0 auto;
+max-width:80%;
+min-width:980px;
+width: 98em;
+padding:15px 10px 10px;
+
+}
+
+#ft {
+background-color: #FFFFFF;
+margin: 0 auto;
+max-width:80%;
+min-width:980px;
+width: 98em;
+padding:15px 10px 10px;
+
+}
+
+#headerlist {
+max-width:30%;
+min-width:300px;
+width: 30em;
+margin-left: 0px;
+float: right;
+text-align: center;
+border: 0;
+  margin: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding-top: 0px;
+}
+
+.wrap ul {
+margin-left: 2px;
+margin-right: auto; 
+display:block;
+padding:3px 3px 3px 3px;
+text-decoration:none;
+list-style: none;
+}
+
+
+#headerlist ul {
+
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+systemList ul {
+  padding: 0px 0px;
+  margin-left: 0px;
+}
+
+
+#headerlist li { 
+font-weight: bold;  
+display: inline;
+}
+
+#headerlist a {
+font-weight: bold; 
+text-decoration: none;
+border-right:1px solid #000000;
+padding-right:5px;
+}
+
+#headerlist a:hover {
+text-decoration: underline;
+}
+
+#headerlist li#signout a {
+border:medium none;
+}
+
+
+.wrap {
+  border: 2px solid black;
+  background-color: #FFFFFF;  
+  margin: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center; 
+  padding-top:5px;
+}
+
+
+
+
+
+.wrap li { 
+font-weight: bold;
+list-style: none;
+/*list-style-image:none;
+list-style-position:outside;
+list-style-type:disc;*/
+padding:2px 2px 2px 2px;
+text-align: left; 
+height:20px;
+}
+
+.wrap a {
+font-weight: bold; 
+text-decoration: none;
+}
+
+.wrap a:hover {
+text-decoration: underline;
+}
+
+.delRow {
+  background-position:0px 0px;
+  background-image:url(./trash.png);
+  cursor: pointer;
+  /*background: transparent url(./example.png) no-repeat center center;*/
+  background-repeat:no-repeat;
+  width:32px;
+  height:31px;
+
+}
+
+.activeRow {
+
+  background-image:url(./arrow.png);
+  
+  background-repeat:no-repeat;
+  
+  height:34px;/*height=15, width=10*/
+  width:34px;
+  
+  cursor: pointer;
+
+}
+
+.inactiveRow {
+
+  background-position:-44px 0px;
+  
+  background-image:url(./arrow.png);
+  background-repeat:no-repeat;
+  /*display:block;
+  float:left;*/
+  height:25px;/*height=15, width=10*/
+  width:25px;
+  /*overflow:hidden;*/
+  cursor: pointer;
+}
+
+/* Class for marked rows */
+.yui-skin-sam .yui-dt tr.mark,
+.yui-skin-sam .yui-dt tr.mark td.yui-dt-asc,
+.yui-skin-sam .yui-dt tr.mark td.yui-dt-desc,
+.yui-skin-sam .yui-dt tr.mark td.yui-dt-asc,
+.yui-skin-sam .yui-dt tr.mark td.yui-dt-desc {
+    background-color: #a33;
+    color: #fff;
+}
+
+#systemList ul li#myprofile em {
+background-position:0 -35px;
+background-image:url(./sprite_personalnav_v1.png);
+}
+
+#systemList ul li#myreef em {
+background-position:-140px 0;
+}
+
+#systemList ul li em {
+background-image:url(./example.png);
+background-position:0 0;
+background-repeat:no-repeat;
+display:block;
+float:left;
+height:20px;
+margin-right:5px;
+overflow:hidden;
+width:20px;
+}
+
+/*
+#systemListul a {
+font-weight: bold; 
+text-decoration: none;
+}
+
+#systemListul a:hover {
+text-decoration: underline;
+}
+*/
+
+#footer{
+
+margin-left: 0px;
+padding:10px;
+padding-left:0px;
+padding-right:0px;
+width:100%;
+float: left;
+text-align: center; 
+}
+
+#footer ul {
+list-style: none;
+border: 1px solid #123;
+margin-left: auto;
+margin-right: auto; 
+}
+
+#footer li { 
+font-weight: bold;  
+display: inline;
+border:5px solid #FFF;
+}
+
+
+
+#footer a {
+font-weight: bold; 
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+/*This is for the file uploader module */
+
+#uploaderOverlay {
+   width:120px; 
+   height:50px;
+}
+#selectFilesLink a, #uploadFilesLink a, #clearFilesLink a {
+	color: #0000CC;
+	background-color: #FFFFFF;
+}
+
+#selectFilesLink a:visited, #uploadFilesLink a:visited, #clearFilesLink a:visited {
+	color: #0000CC;
+	background-color: #FFFFFF;
+}
+
+#uploadFilesLink a:hover, #clearFilesLink a:hover {	
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+		.uploadButton a, .clearButton a {
+			display:block;
+			width:100px;
+			height:40px;
+			text-decoration: none;
+			margin-left:5px;
+		}
+
+		.uploadButton a {
+			background: url("./uploadFileButton.png") 0 0 no-repeat;
+		}
+
+		.clearButton a {
+			background: url("./clearListButton.png") 0 0 no-repeat;
+		}
+
+	    .uploadButton a:visited, .clearButton a:visited {
+			background-position: 0 0;
+		}
+
+	    .uploadButton a:hover, .clearButton a:hover {	
+			background-position: 0 -40px;
+		}
+
+	    .uploadButton a:active, .clearButton a:active {
+			background-position: 0 -80px;
+		}
+
+
+
